@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,15 +19,12 @@ namespace CRUDSederhana
         {
             InitializeComponent();
         }
-
+        //Event saat form pertama kali
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadData(); 
+            LoadData();
         }
-        // Fungsi untuk mengosongkan semua input pada TextBox
-        private void btnUbah_Click(object sender, EventArgs e)
-        {
 
-        }
+       
     }
 }
