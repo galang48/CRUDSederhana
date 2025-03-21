@@ -21,7 +21,7 @@ namespace CRUDSederhana
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadData();
+            LoadData(); 
         }
         // Fungsi untuk mengosongkan semua input pada TextBox
         private void btnUbah_Click(object sender, EventArgs e)
